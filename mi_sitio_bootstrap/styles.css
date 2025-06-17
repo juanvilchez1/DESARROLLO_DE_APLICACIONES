@@ -1,0 +1,52 @@
+body {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Botón principal estilo gamer */
+.btn-primary {
+  background-color: #00ffc8;
+  color: #000;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #00bfa6;
+  transform: scale(1.05);
+}
+
+/* Card animadas */
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  background-color: #2a2a40;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Formulario con estilo claro sobre fondo oscuro */
+form {
+  background-color: #2f2f4f;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Media query: cambia fondo en pantallas pequeñas */
+@media (max-width: 768px) {
+  body {
+    background-color: #121225;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
